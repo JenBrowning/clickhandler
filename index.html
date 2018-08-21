@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>An interactive web page</title>
+        <title>Click Handler</title>
         <style>
             #color_box {width: 200px; height: 200px;}
             .gray {background: gray;}
@@ -31,11 +31,7 @@
             pink_button.onclick = function () {
                 color_box.className = "pink";
             }
-            /* TODO 1
-             *
-             * Add a third button (and the associated event handler)
-             * to support an additional color: pink
-             */
+           
         </script>
 
         <hr>
@@ -51,16 +47,9 @@
                     count++;
                     countspan.innerHTML = count;
                     alert(countspan.innerHTML);
-
                     }
-                /* TODO 2
-                 *
-                 * Fill in this function so that it increments
-                 * (adds one to) the variable named count,
-                 * then updates the text content of "countspan"
-                 * to show the current value of "count".
-                 */
-            }
+            
+            
         </script>
 
         <hr>
@@ -71,20 +60,13 @@
             const even_or_odd_button = document.getElementById("even_or_odd_button");
             even_or_odd_button.onclick = function() {
                 if (countspan.innerHTML % 0) {
-                    alert("Even")
-                else {
+                    alert("Even");
+                }else {
                     alert("Odd");                }
                 }
-                /* TODO 3
-                 *
-                 * Fill in this function so that it shows an
-                 * alert dialog stating whether the count
-                 * (from part 2, above) is even or odd.
-                 */
-            }
+               
+            
 
-            function(name, age) {
-                get
-            }        </script>
+        </script>
     </body>
 </html>
